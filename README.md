@@ -1,15 +1,12 @@
----
-
 ## 🔧 About this fork (by @8bitendo)
 
 This fork updates the original `isaac-save-edit-script` to support the latest Repentance content:
 
-- Supports **641 secrets** instead of 637
-- GUI displays **numbered secrets**, items, and challenges (e.g., `123 - The Mind`)
-- Updated script logic to unlock new secrets properly
-- Based on the work of [jamesthejellyfish](https://github.com/jamesthejellyfish)
+- ✅ Supports **641 secrets** instead of 637  
+- ✅ GUI displays **numbered secrets**, items, and challenges (e.g., `123 - The Mind`)  
+- ✅ Updated script logic to unlock new content  
+- ✅ Based on [jamesthejellyfish](https://github.com/jamesthejellyfish)
 
----
 
 
 # isaac-save-edit-script
