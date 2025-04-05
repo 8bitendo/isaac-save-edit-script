@@ -170,7 +170,7 @@ def getChallenges(data):
 def getSecrets(data):
     secrets_data = []
     offs = getSectionOffsets(data)[0]
-    for i in range(1, 641):  # ← Avant c’était 638
+    for i in range(1, 641):
         secrets_data.append(getInt(data, offs+i, num_bytes=1))
     return secrets_data
 
@@ -251,7 +251,7 @@ def getInt(data, offset, debug=False, num_bytes=2):
     return int.from_bytes(data[offset:offset+num_bytes], 'little')
 
 def updateSecrets(data, secret_list):
-    for i in range(1, 641):  # ← Pareil ici
+    for i in range(1, 641):
         data = alterSecret(data, i, False)
     for i in secret_list:
         data = alterSecret(data, int(i))
