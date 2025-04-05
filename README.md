@@ -6,7 +6,7 @@ This fork updates the original `isaac-save-edit-script` to support the latest Re
 - GUI displays IDs for achievements, items, and challenges (e.g., `123 - The Mind`)
 - Based on [jamesthejellyfish](https://github.com/jamesthejellyfish)
 
-
+**For non-Rep+ savefiles, please use jamesthejellyfish's script: https://github.com/jamesthejellyfish/isaac-save-edit-script/releases/**
 
 # isaac-save-edit-script
 A script build in python for editing save files for the binding of isaac repentance.
@@ -21,7 +21,7 @@ As always, be sure to **backup any saves before using this tool**, as I do not g
 
 # Running
 
-To run, either download the latest release of the graphical version found here: https://github.com/jamesthejellyfish/isaac-save-edit-script/releases/
+To run, either download the latest release of the graphical version found here: https://github.com/8bitendo/isaac-save-edit-script/releases/
 then simply open the exe file.
 
 ## Opening your save file
